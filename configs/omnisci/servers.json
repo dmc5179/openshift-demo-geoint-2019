@@ -1,0 +1,111 @@
+[
+{
+     "database": "mapd",
+     "url": "mapd.omnisci.apps.geoint.redhatgov.io",
+     "port": "6274",
+     "username": "mapd",
+     "password": "HyperInteractive",
+     "customStyles": {
+        "logoURL": "https://ceph.com/wp-content/uploads/2019/05/Logo-RedHat-A-Color-RGB-1024x242.png",
+        "loginText": "Log in to TickleKnuckleBee",
+        "buttonPrimaryColor": "#E5BC2C",
+        "buttonSecondaryColor": "#4D88B4",
+        "buttonSecondaryHighlightColor": "#4D88B4",
+        "colors": {
+          "solid": [
+             "#ce006f",
+             "#b50061",
+             "#9b0053",
+             "#8a004a",
+             "#7b003a",
+             "#ffb370",
+             "#fc9e4a",
+             "#ff8f2a"
+          ],
+          "custom": [
+             "#ce006f",
+             "#b50061",
+             "#9b0053",
+             "#8a004a",
+             "#7b003a",
+             "#ffb370",
+             "#fc9e4a",
+             "#ff8f2a",
+             "#fc8113",
+             "#ff7800",
+             "#ff7800"
+          ],
+          "ordinal": [
+             [
+                "#2F1510",
+                "#ECFE71"
+             ],
+             [
+                "#2F1510",
+                "#665A79",
+                "#C7F779"
+             ],
+             [
+                "#2F1510",
+                "#5D3546",
+                "#5B7797",
+                "#39BFA9",
+                "#ECFE71"
+             ],
+             [
+                "#2F1510",
+                "#492328",
+                "#5D3546",
+                "#674C68",
+                "#626889",
+                "#5086A2",
+                "#36A3AD",
+                "#39BFA9",
+                "#67D99A",
+                "#A5EE84",
+                "#ECFE71"
+             ]
+          ],
+          "quantitative": [
+             [
+                "#2F1510",
+                "#3D1B1B",
+                "#492328",
+                "#542B36",
+                "#5D3546",
+                "#644057",
+                "#674C68",
+                "#665A79",
+                "#626889",
+                "#5B7797",
+                "#5086A2",
+                "#4395A9",
+                "#36A3AD",
+                "#31B2AD",
+                "#39BFA9",
+                "#4CCCA3",
+                "#67D99A",
+                "#84E48F",
+                "#A5EE84",
+                "#C7F779",
+                "#ECFE71"
+             ],
+             [
+              "#2F1510",
+              "#ECFE71"
+             ],
+             [
+                "#FF3030",
+                "#FF8000",
+                "#FFF68F"
+             ],
+             [
+              "#9bb0ff",
+              "#e0e5ff",
+              "#ffc38b"
+             ]
+          ]
+        }
+     }
+}
+]
