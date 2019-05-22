@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# See the link below for detailed steps
+# https://elmiko.github.io/2018/05/18/python3-coming-to-radanalytics.html
+
 # Pull resource yaml from rad
 oc create -f https://radanalytics.io/resources.yaml
 
