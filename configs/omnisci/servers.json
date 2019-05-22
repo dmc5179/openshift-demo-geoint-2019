@@ -1,16 +1,17 @@
 [
 {
      "database": "mapd",
-     "url": "mapd.omnisci.apps.geoint.redhatgov.io",
-     "port": "6274",
+     "host": "mapd.omnisci.apps.geoint.redhatgov.io",
+     "port": 80,
+     "protocol": "http",
      "username": "mapd",
      "password": "HyperInteractive",
      "customStyles": {
         "logoURL": "https://ceph.com/wp-content/uploads/2019/05/Logo-RedHat-A-Color-RGB-1024x242.png",
-        "loginText": "Log in to TickleKnuckleBee",
+        "loginText": "Log in to OmniSci powered by Red Hat on OpenShift",
         "buttonPrimaryColor": "#E5BC2C",
-        "buttonSecondaryColor": "#4D88B4",
-        "buttonSecondaryHighlightColor": "#4D88B4",
+        "buttonSecondaryColor": "#CC0000",
+        "buttonSecondaryHighlightColor": "#CC0000",
         "colors": {
           "solid": [
              "#ce006f",
@@ -109,3 +110,4 @@
      }
 }
 ]
+
