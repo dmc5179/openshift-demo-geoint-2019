@@ -17,7 +17,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mapd-pv-claim
+  name: mapd-pv-claim-a
   labels:
     app: mapd
 spec:
@@ -44,12 +44,21 @@ spec:
       labels:
         app: mapd
     spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: openshift.com/gpu-accelerator
+                operator: Exists
       containers:
       - image: docker.io/omnisci/omnisci-ee-cuda:latest
         name: omnisci-ee-cuda
         env:
+        - name: NVIDIA_DRIVER_CAPABILITIES
+          value: compute,utility,graphics
         - name: NVIDIA_DRIVER_CAPABILITES
-          value: compute,utility
+          value: compute,utility,graphics
         - name: NVIDIA_VISIBLE_DEVICES
           value: all
         ports:
@@ -61,4 +70,4 @@ spec:
       volumes:
       - name: mapd-persistent-storage
         persistentVolumeClaim:
-          claimName: mapd-pv-claim
+          claimName: mapd-pv-claim-a
